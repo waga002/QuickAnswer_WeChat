@@ -1,0 +1,6 @@
+<!--home.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="title-view">
+    <text class="title-text">{{title}}</text>
+  </view>
+</scroll-view>

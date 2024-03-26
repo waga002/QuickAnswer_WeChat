@@ -1,0 +1,11 @@
+<!--main-menu.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="user-info">
+    <image class="user-avatar" src="{{defaultAvatarUrl}}" />
+    <text class="user-name">{{userName}}</text>
+    <view class="golden-info">
+      <image class="golden-image" src="{{goldenImage}}" />
+      <text class="golden-number">{{goldenNumber}}</text>
+    </view>
+  </view>
+</scroll-view>

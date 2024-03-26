@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+</scroll-view>
